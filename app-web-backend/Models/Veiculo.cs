@@ -20,6 +20,5 @@ namespace app_web_backend.Models
 
        // public ICollection<Consumo> Consumos { get; set; }
 
-        ; }
+        };
     }
-}
