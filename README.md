@@ -1,3 +1,3 @@
 app-web-backend
 
-## Using .NET 5.0
+## Using .NET 5.0 and Visual Studio 2022
