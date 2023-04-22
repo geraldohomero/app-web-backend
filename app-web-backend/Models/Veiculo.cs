@@ -5,20 +5,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace app_web_backend.Models
 {
-    [Table("Veículo")]
+    [Table("Veiculos")]
     public class Veiculo
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage = "Obrigatório informar o Nome!")]
+
+        [Required(ErrorMessage = "Obrigatório Informar o nome!")]
         public string Nome { get; set; }
-        [Required(ErrorMessage = "Obrigatório informar a Placa!")]
+
+        [Required(ErrorMessage = "Obrigatório Informar o placa!")]
         public string Placa { get; set; }
 
-
-       // public ICollection<Consumo> Consumos { get; set; }
-
-        };
+        //public ICollection<Consumo> Consumos { get; set; }
     }
+}
